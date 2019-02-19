@@ -37,3 +37,9 @@ $exp_str[2] = "chiens";
 // refaire la chaine originale
 echo join(" ",$exp_str);
 
+// compter le nombre de caracteres d une chaine de caracteres
+echo "<br>";
+echo "Nombre de caracteres : ". strlen($original_str) ."<br>";
+// compter le nombre d entree d un tableau
+echo "le tableau \$MIT_Students possede ". count($MIT_Students)." entrees.<br>";
+echo count($original_str)."<br>";
