@@ -1,0 +1,9 @@
+[Mon Feb 18 14:34:31.104391 2019] [php7:crit] [pid 10180:tid 1952] [client 127.0.0.1:49952] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in C:\\xampp\\htdocs\\site_a\\public\\index.php on line 19
+[Mon Feb 18 14:42:17.710164 2019] [php7:crit] [pid 10180:tid 1952] [client 127.0.0.1:49974] PHP Parse error:  syntax error, unexpected '';\r' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ';' in C:\\xampp\\htdocs\\site_a\\public\\index.php on line 29
+[Mon Feb 18 14:48:41.711756 2019] [php7:crit] [pid 10180:tid 1960] [client 127.0.0.1:49997] PHP Parse error:  syntax error, unexpected '>' in C:\\xampp\\htdocs\\site_a\\public\\index.php on line 2
+[Mon Feb 18 14:48:52.540013 2019] [php7:crit] [pid 10180:tid 1952] [client 127.0.0.1:50000] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in C:\\xampp\\htdocs\\site_a\\public\\index.php on line 2
+[Mon Feb 18 14:50:09.784991 2019] [php7:error] [pid 10180:tid 1952] [client 127.0.0.1:50014] script 'C:/xampp/htdocs/site_a/public/info.php' not found or unable to stat
+[Mon Feb 18 16:52:02.282677 2019] [php7:crit] [pid 10180:tid 1960] [client 127.0.0.1:50332] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING) in C:\\xampp\\htdocs\\site_a\\public\\chaine.php on line 36
+[Mon Feb 18 16:53:39.334631 2019] [php7:notice] [pid 10180:tid 1960] [client 127.0.0.1:50341] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\site_a\\public\\chaine.php on line 35
+[Mon Feb 18 17:23:04.980932 2019] [php7:crit] [pid 10180:tid 1952] [client 127.0.0.1:50494] PHP Parse error:  syntax error, unexpected '/' in C:\\xampp\\htdocs\\site_a\\public\\sorties.php on line 22
+[Mon Feb 18 17:23:05.816007 2019] [php7:crit] [pid 10180:tid 1952] [client 127.0.0.1:50494] PHP Parse error:  syntax error, unexpected '/' in C:\\xampp\\htdocs\\site_a\\public\\sorties.php on line 22
