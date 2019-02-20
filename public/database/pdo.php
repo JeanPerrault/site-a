@@ -15,7 +15,7 @@ $db_user = "root";
 $db_pass = "";
 
 // nom de la base de donnees
-$db_schema = "webpizzza";
+$db_schema = "webpizza";
 
 // Type de la BDD
 $db_type = "mysql";
