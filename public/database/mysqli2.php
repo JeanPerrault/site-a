@@ -27,7 +27,7 @@ $db = mysqli_connect($db_host, $db_user, $db_pass, $db_schema);
 // 3. une requete
 
 // Query ingredient
-$q_ingredients = "SELECT * FROM ingredients";
+$q_ingredients = "SELECT id,name FROM ingredients where name like '%o%' ORDER BY name DESC";
 // Result ingredient
 $r_ingredients = mysqli_query($db, $q_ingredients);
 // var_dump($r_ingredients);
@@ -48,8 +48,6 @@ $d_ingredients = mysqli_fetch_all($r_ingredients, MYSQLI_ASSOC);
         <tr>
             <th>#</th>
             <th>Nom</th>
-            <th>Vegan ?</th>
-            <th>Halal ?</th>
         </tr>
     </thead>    
     <tbody>
@@ -59,8 +57,6 @@ $d_ingredients = mysqli_fetch_all($r_ingredients, MYSQLI_ASSOC);
             <!-- <td><?php echo $line['id'] ?></td> -->
             <td><?= $line['id']; ?></td>
             <td><?= utf8_encode($line['name']) ?></td>
-            <td><?= $line['vegan_compliance'] ?></td>
-            <td><?= $line['halal_compliance'] ?></td>
         </tr>    
         <?php endforeach; ?>
     </tbody>
