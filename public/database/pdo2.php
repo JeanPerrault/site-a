@@ -47,18 +47,35 @@ try {
  * 3. Une requete
  */
 
- // definition de la requete
- $q_str_ingredients = "SELECT * FROM ingredients";
+ // on recupere l id depuis l url
+$id = isset($_GET['id']) ? intval($_GET['id']) : null;
+// si l id n est pas null on execute la requete
+if ($id != null){
+    // definition de la requete
+    $q_str_ingredients = "SELECT * FROM ingredients WHERE id=:mavarpdo";
 
- // stockage de la requete dans la memoire PDO
- $q_ingredients = $db->query($q_str_ingredients);
-//  var_dump($q_ingredients);
+    // stockage de la requete dans la memoire PDO
+    //$q_ingredients = $db->query($q_str_ingredients);
+    $q_ingredients = $db->prepare($q_str_ingredients);
 
- // execution de la requete
+    //  var_dump($q_ingredients);
+
+    // execution de la requete
     // fetchALL = est une methode d une fonction pour tout afficher
     // fetch = est une methode d une fonction pour afficher le premier enregistrement
- $r_ingredients = $q_ingredients->fetchALL(); 
-//  var_dump($r_ingredients);
+    // $r_ingredients = $q_ingredients->fetchALL(); 
+    // $q_ingredients->execute([
+    //     "mavarpdo" => $id
+    // ]); 
+    $q_ingredients->bindValue(":mavarpdo", $id, PDO::PARAM_INT); 
+    $q_ingredients->execute(); 
+    $r_ingredients = $q_ingredients->fetchALL(); 
+    //  var_dump($r_ingredients);
+}else {
+    // si l id es null on declare $r_ingredients avec un tableau vide
+    $r_ingredients=[];
+}
+
  ?>
 
  <table>

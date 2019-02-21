@@ -232,3 +232,131 @@
 [Wed Feb 20 10:18:46.686496 2019] [php7:notice] [pid 4068:tid 1964] [client 127.0.0.1:52758] PHP Notice:  Undefined offset: 0 in C:\\xampp\\htdocs\\site_a\\public\\tableaux.php on line 22
 [Wed Feb 20 10:33:03.676982 2019] [php7:error] [pid 4068:tid 1964] [client 127.0.0.1:52821] PHP Fatal error:  Uncaught Error: Call to undefined function dump() in C:\\xampp\\htdocs\\site_a\\public\\tableaux.php:49\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\site_a\\public\\tableaux.php on line 49
 [Wed Feb 20 11:28:05.640903 2019] [php7:error] [pid 6804:tid 1960] [client 127.0.0.1:52980] script 'C:/xampp/htdocs/site_a/public/inclusion.php' not found or unable to stat
+[Wed Feb 20 14:14:47.606528 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50127] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:14:47.614527 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50127] PHP Stack trace:
+[Wed Feb 20 14:14:47.614527 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50127] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:16:56.106871 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50135] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:16:56.107866 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50135] PHP Stack trace:
+[Wed Feb 20 14:16:56.107866 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50135] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:17:01.692850 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50136] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:17:01.693891 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50136] PHP Stack trace:
+[Wed Feb 20 14:17:01.693891 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50136] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:17:50.172121 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50144] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:17:50.173113 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50144] PHP Stack trace:
+[Wed Feb 20 14:17:50.174058 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50144] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:20:33.053679 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50152] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:20:33.053679 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50152] PHP Stack trace:
+[Wed Feb 20 14:20:33.054736 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50152] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:21:50.719987 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50157] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:21:50.720984 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50157] PHP Stack trace:
+[Wed Feb 20 14:21:50.720984 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50157] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:23:08.803158 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP Notice:  Undefined variable: _SESSION in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 18
+[Wed Feb 20 14:23:08.803158 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP Stack trace:
+[Wed Feb 20 14:23:08.803158 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 14:23:08.804187 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE[0] in C:\\xampp\\htdocs\\site_a\\public\\superglobal.php on line 25
+[Wed Feb 20 14:23:08.805150 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP Stack trace:
+[Wed Feb 20 14:23:08.805150 2019] [php7:notice] [pid 12252:tid 1968] [client 127.0.0.1:50170] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\superglobal.php:0
+[Wed Feb 20 16:16:08.048153 2019] [php7:error] [pid 12252:tid 1980] [client 127.0.0.1:50738] script 'C:/xampp/htdocs/site_a/public/mysqli.php' not found or unable to stat
+[Wed Feb 20 16:29:02.911879 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP Notice:  Undefined variable: r_ingredient in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli.php on line 38
+[Wed Feb 20 16:29:02.912923 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP Stack trace:
+[Wed Feb 20 16:29:02.913919 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli.php:0
+[Wed Feb 20 16:29:02.915915 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli.php on line 38
+[Wed Feb 20 16:29:02.915915 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP Stack trace:
+[Wed Feb 20 16:29:02.916911 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli.php:0
+[Wed Feb 20 16:29:02.916911 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50805] PHP   2. mysqli_fetch_assoc() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli.php:38
+[Wed Feb 20 16:54:03.309884 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 16:54:03.310835 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP Stack trace:
+[Wed Feb 20 16:54:03.310835 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:54:03.311878 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 16:54:03.314818 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 16:54:03.315813 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP Stack trace:
+[Wed Feb 20 16:54:03.316812 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50937] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:55:13.313031 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Notice:  Undefined variable: r_ingredient in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 33
+[Wed Feb 20 16:55:13.314030 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Stack trace:
+[Wed Feb 20 16:55:13.314983 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:55:13.317025 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 16:55:13.317975 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Stack trace:
+[Wed Feb 20 16:55:13.317975 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:55:13.318970 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 16:55:13.321963 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 16:55:13.322960 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP Stack trace:
+[Wed Feb 20 16:55:13.323957 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50942] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:56:41.937502 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 16:56:41.938529 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP Stack trace:
+[Wed Feb 20 16:56:41.938529 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:56:41.938529 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 16:56:41.940490 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 16:56:41.941487 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP Stack trace:
+[Wed Feb 20 16:56:41.941487 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50948] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:58:55.348097 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 16:58:55.349095 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP Stack trace:
+[Wed Feb 20 16:58:55.349095 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 16:58:55.349095 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 16:58:55.350092 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 16:58:55.350092 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP Stack trace:
+[Wed Feb 20 16:58:55.350092 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50958] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:51.563439 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:51.564435 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Stack trace:
+[Wed Feb 20 17:00:51.564435 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:51.565431 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:51.567375 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:51.568371 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Stack trace:
+[Wed Feb 20 17:00:51.568371 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.011377 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.012375 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Stack trace:
+[Wed Feb 20 17:00:52.012375 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.013371 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.016365 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.017362 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP Stack trace:
+[Wed Feb 20 17:00:52.017362 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50988] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.223498 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.224494 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP Stack trace:
+[Wed Feb 20 17:00:52.224494 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.225493 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.228484 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.228484 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP Stack trace:
+[Wed Feb 20 17:00:52.229481 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:50989] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.435404 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.436399 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP Stack trace:
+[Wed Feb 20 17:00:52.436399 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.436399 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.437395 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.437395 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP Stack trace:
+[Wed Feb 20 17:00:52.438390 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:50995] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.642107 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.642973 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP Stack trace:
+[Wed Feb 20 17:00:52.642973 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.642973 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.643935 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.643935 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP Stack trace:
+[Wed Feb 20 17:00:52.643935 2019] [php7:notice] [pid 12252:tid 1972] [client 127.0.0.1:50999] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.836343 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.837373 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP Stack trace:
+[Wed Feb 20 17:00:52.837373 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.837373 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.839331 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.839331 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP Stack trace:
+[Wed Feb 20 17:00:52.840329 2019] [php7:notice] [pid 12252:tid 1964] [client 127.0.0.1:51002] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.970879 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:00:52.970879 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP Stack trace:
+[Wed Feb 20 17:00:52.970879 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:00:52.970879 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:00:52.972059 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:00:52.972059 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP Stack trace:
+[Wed Feb 20 17:00:52.973059 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51005] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:03:14.690332 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:03:14.691326 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP Stack trace:
+[Wed Feb 20 17:03:14.693327 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:03:14.693327 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:03:14.696316 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:03:14.697314 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP Stack trace:
+[Wed Feb 20 17:03:14.698312 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51024] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:04:27.398929 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 43
+[Wed Feb 20 17:04:27.398929 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP Stack trace:
+[Wed Feb 20 17:04:27.399955 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:04:27.399955 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP   2. mysqli_fetch_all() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:43
+[Wed Feb 20 17:04:27.400923 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP Warning:  Invalid argument supplied for foreach() in C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php on line 55
+[Wed Feb 20 17:04:27.400923 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP Stack trace:
+[Wed Feb 20 17:04:27.400923 2019] [php7:notice] [pid 12252:tid 1960] [client 127.0.0.1:51037] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\mysqli2.php:0
+[Wed Feb 20 17:23:54.426517 2019] [php7:error] [pid 12252:tid 1980] [client 127.0.0.1:51118] script 'C:/xampp/htdocs/site_a/public/database/pod.php' not found or unable to stat
+[Wed Feb 20 17:26:09.496259 2019] [php7:notice] [pid 12252:tid 1980] [client 127.0.0.1:51136] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo.php on line 34
