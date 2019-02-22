@@ -43,3 +43,5 @@ annees bissextile : <?= date('L') ?> <br>
 annee : <?= date('y') ?> <br>
 annee : <?= date('Y') ?> <br>
 numero de la semaine : <?= date('W') ?> <br>
+
+date : <?= date('l d F Y \h\e\u\r\e : H:i:s') ?>
