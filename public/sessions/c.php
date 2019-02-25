@@ -9,3 +9,5 @@ if(isset($_SESSION['test'])){
 ?>
 
 <h1>Fichier C</h1>
+
+Bonjour <?=$_SESSION['name'] ?>

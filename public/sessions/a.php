@@ -5,13 +5,18 @@ $_SESSION['test'] = "ABC";
 
 
 // definition de la variable $name
-$name = null;
+// $name = null;
+if(!isset($_SESSION['name'])){
+    $_SESSION['name'] = null;
+}
+
 
 // recuperation de la donnée
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     // $name = $_POST['name']; // recupere meme les blancs saisis avant ou apres
     //$name = trim($_POST['name']); // supprime les espaces saisis avant ou apres
-    $name = isset($_POST['name']) ? trim($_POST['name']) : null;
+    // $name = isset($_POST['name']) ? trim($_POST['name']) : null;
+    $_SESSION['name'] = isset($_POST['name']) ? trim($_POST['name']) : null;
 }
 
 
@@ -26,11 +31,14 @@ include_once "menu.php";
     <button type="submit">Valider</button>
 </form>
 
-<?php if(!empty($name)): ?>
-<div>
+<!-- <?php if(!empty($name)): ?> -->
+<!-- <div>
      Bonjour <?= $name ?>
+</div> -->
+<!-- <?php endif; ?> -->
+<?php if(!empty($_SESSION['name'])): ?>
+<div>
+     Bonjour <?= $_SESSION['name'] ?>
 </div>
 <?php endif; ?>
-
  
-<?= $_SESSION['test']?>
