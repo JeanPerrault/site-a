@@ -2,6 +2,8 @@
 // 1. On démarre la session
 session_start();
 
+$data = null;
+
 // 3. Récupération des données du formulaire
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -11,15 +13,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Declare la variable $message
     $message = null;
 
-    if (preg_match("/[a-z-]+/", $data)) {
-        $message = "C'est une chaine :-)";
+    if (preg_match("/[a-z-]+/i", $data)) {
+        $message = [
+            "state" => "success",
+            "msg" => "C'est une chaine :-)"
+        ];
     } else {
-        $message = "Ce n'est pas une chaine :'(";
+        $message = [
+            "state" => "danger",
+            "msg" => "Ce n'est pas une chaine :'("
+        ];
     }
 
     // 5. Ajout du message dans la $_SESSION 
     $_SESSION['flashmsg'] = $message;
 
+    // 9. Redirection de l'utilisateur
+    header("location: ".$_SERVER['HTTP_REFERER']);
+    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -37,10 +48,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="row">
             <div class="col-4 offset-4">
                 <!-- 6. Test de l'existance du message Flash -->
-                <?php if (isset($_SESSION['flashmsg'])): ?>
+                <?php if (isset($_SESSION['flashmsg']) && !empty($_SESSION['flashmsg'])): ?>
                     <!-- 7. Affichage du message -->
-                    <div class="alert alert-success">
-                        <?= $_SESSION['flashmsg']?>
+                    <div class="alert alert-<?= $_SESSION['flashmsg']['state']?>">
+                        <?= $_SESSION['flashmsg']['msg']?>
                     </div>
                 <?php endif; ?>
             
