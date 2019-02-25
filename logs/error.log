@@ -389,3 +389,61 @@
 [Thu Feb 21 10:50:08.134037 2019] [php7:notice] [pid 11184:tid 1968] [client 127.0.0.1:50252] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::blindValue() in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php:70\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php on line 70
 [Thu Feb 21 10:50:19.721257 2019] [php7:notice] [pid 11184:tid 1960] [client 127.0.0.1:50269] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::blindValue() in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php:70\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php on line 70
 [Thu Feb 21 10:51:00.615945 2019] [php7:notice] [pid 11184:tid 1968] [client 127.0.0.1:50274] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::blindValue() in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php:70\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\site_a\\public\\database\\pdo2.php on line 70
+[Fri Feb 22 12:23:41.526275 2019] [php7:error] [pid 6720:tid 1932] [client 127.0.0.1:51376] script 'C:/xampp/htdocs/site_a/public/date.php' not found or unable to stat
+[Fri Feb 22 12:32:05.364915 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51447] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:32:05.365912 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51447] PHP Stack trace:
+[Fri Feb 22 12:32:05.366909 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51447] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:33:31.617191 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:33:31.618257 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Stack trace:
+[Fri Feb 22 12:33:31.619250 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:33:32.846202 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:33:32.847199 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Stack trace:
+[Fri Feb 22 12:33:32.848197 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:33:34.768381 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:33:34.768381 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Stack trace:
+[Fri Feb 22 12:33:34.769378 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:33:36.288061 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:33:36.289057 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP Stack trace:
+[Fri Feb 22 12:33:36.289057 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51455] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:52.175400 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:52.176396 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:52.177392 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:53.644282 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:53.644282 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:53.645283 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:54.705011 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:54.706018 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:54.707008 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:55.722773 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:55.723772 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:55.723772 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:56.783868 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:56.784864 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:56.784864 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:58.436243 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:58.437228 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:58.437228 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:34:59.435630 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:34:59.435630 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP Stack trace:
+[Fri Feb 22 12:34:59.436626 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51466] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:35:13.820791 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51484] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:35:13.821786 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51484] PHP Stack trace:
+[Fri Feb 22 12:35:13.822778 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51484] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:35:22.876442 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51483] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:35:22.877452 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51483] PHP Stack trace:
+[Fri Feb 22 12:35:22.878446 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51483] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:36:44.495482 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51494] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:36:44.495482 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51494] PHP Stack trace:
+[Fri Feb 22 12:36:44.496473 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51494] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:38:44.806638 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51505] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:38:44.807633 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51505] PHP Stack trace:
+[Fri Feb 22 12:38:44.808630 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51505] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:40:50.783667 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51514] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:40:50.784663 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51514] PHP Stack trace:
+[Fri Feb 22 12:40:50.785659 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51514] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:41:52.662580 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51523] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:41:52.663574 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51523] PHP Stack trace:
+[Fri Feb 22 12:41:52.664571 2019] [php7:notice] [pid 6720:tid 1944] [client 127.0.0.1:51523] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
+[Fri Feb 22 12:42:28.961701 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51528] PHP Notice:  A non well formed numeric value encountered in C:\\xampp\\htdocs\\site_a\\public\\database\\date.php on line 26
+[Fri Feb 22 12:42:28.962697 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51528] PHP Stack trace:
+[Fri Feb 22 12:42:28.963694 2019] [php7:notice] [pid 6720:tid 1932] [client 127.0.0.1:51528] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\database\\date.php:0
