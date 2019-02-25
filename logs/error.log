@@ -513,3 +513,28 @@
 [Mon Feb 25 13:00:49.090312 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:50759] PHP Stack trace:, referer: http://site-a.local/sessions/c.php
 [Mon Feb 25 13:00:49.090312 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:50759] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\a.php:0, referer: http://site-a.local/sessions/c.php
 [Mon Feb 25 13:00:49.091254 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:50759] PHP   2. include_once() C:\\xampp\\htdocs\\site_a\\public\\sessions\\a.php:2, referer: http://site-a.local/sessions/c.php
+[Mon Feb 25 14:15:28.339881 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:51010] PHP Notice:  Undefined index: test in C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php on line 13, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:28.340879 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:51010] PHP Stack trace:, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:28.341876 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:51010] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php:0, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:39.054773 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Notice:  Undefined index: test in C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php on line 13, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:39.055723 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Stack trace:, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:39.056717 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php:0, referer: http://site-a.local/sessions/b.php
+[Mon Feb 25 14:15:40.254095 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Notice:  Undefined index: test in C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php on line 13, referer: http://site-a.local/sessions/c.php
+[Mon Feb 25 14:15:40.255093 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Stack trace:, referer: http://site-a.local/sessions/c.php
+[Mon Feb 25 14:15:40.256042 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php:0, referer: http://site-a.local/sessions/c.php
+[Mon Feb 25 14:15:45.062410 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Notice:  Undefined index: test in C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php on line 13, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:15:45.062410 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP Stack trace:, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:15:45.063407 2019] [php7:notice] [pid 4900:tid 1960] [client 127.0.0.1:51021] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\c.php:0, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:51:44.609192 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51650] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php on line 6
+[Mon Feb 25 14:51:44.610189 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51650] PHP Stack trace:
+[Mon Feb 25 14:51:44.611145 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51650] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php:0
+[Mon Feb 25 14:56:57.644781 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51909] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php on line 6, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:56:57.644781 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51909] PHP Stack trace:, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:56:57.645777 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51909] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php:0, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:56:57.647800 2019] [http:error] [pid 4900:tid 1968] [client 127.0.0.1:51909] AH02429: Response header name 'location ' contains invalid characters, aborting request, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:57:41.915702 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51961] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php on line 6, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:57:41.916698 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51961] PHP Stack trace:, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 14:57:41.917695 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:51961] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php:0, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 15:02:16.413647 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:52210] PHP Notice:  Undefined index: name in C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php on line 6, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 15:02:16.414644 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:52210] PHP Stack trace:, referer: http://site-a.local/sessions/a.php
+[Mon Feb 25 15:02:16.414644 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:52210] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\d.php:0, referer: http://site-a.local/sessions/a.php

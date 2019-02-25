@@ -6,7 +6,7 @@ if(isset($_SESSION['name'])){
 echo $_SESSION['name'];
 
 header("location: a.php"); // pour rediriger vers le fichier a.php 
-exit;
+exit; //si exit on ne crée pas et on n ecrit pas dans le fichier ci dessous
 
 $fp = fopen('data.txt', 'w');
 fwrite($fp, 'on ecrit le fichier');
