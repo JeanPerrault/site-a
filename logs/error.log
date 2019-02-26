@@ -544,3 +544,18 @@
 [Mon Feb 25 15:44:00.401772 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:54825] PHP Notice:  Undefined variable: data in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 14
 [Mon Feb 25 15:44:00.402778 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:54825] PHP Stack trace:
 [Mon Feb 25 15:44:00.402778 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:54825] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0
+[Mon Feb 25 16:43:13.154716 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP Notice:  Undefined index: falshmsg in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 52, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:43:13.154716 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP Stack trace:, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:43:13.155714 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:43:13.157708 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 53, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:43:13.157708 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP Stack trace:, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:43:13.158706 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58020] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.922209 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP Notice:  Undefined index: falshmsg in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 54, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.923185 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP Stack trace:, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.924185 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.925187 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 55, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.926186 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP Stack trace:, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:29.927176 2019] [php7:notice] [pid 4900:tid 1952] [client 127.0.0.1:58142] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:59.163215 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:58183] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php on line 55, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:59.163215 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:58183] PHP Stack trace:, referer: http://site-a.local/sessions/index.php
+[Mon Feb 25 16:45:59.164212 2019] [php7:notice] [pid 4900:tid 1968] [client 127.0.0.1:58183] PHP   1. {main}() C:\\xampp\\htdocs\\site_a\\public\\sessions\\index.php:0, referer: http://site-a.local/sessions/index.php
